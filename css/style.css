@@ -45,11 +45,13 @@ body {
     max-width: 760px;
   }
 }
+
 @media screen and (max-width: 760px) {
   .inner {
-    max-width: 100%px;
+    max-width: 100%;
   }
 }
+
 /* float 해제 */
 .clearfix::after {
   display: block;
@@ -163,6 +165,7 @@ body {
   height: 11px;
   background: url("../images/icon_linkArrow.svg") no-repeat center;
 }
+
 @media screen and (max-width: 1280px) {
   .section-top {
   }
@@ -177,11 +180,11 @@ body {
   .section-top > h2 {
     font-size: 20px;
     line-height: 24px;
+    margin-bottom: 0;
   }
   .section-top > p {
     font-size: 15px;
     line-height: 18px;
-    margin-top: 2px;
   }
 }
 @media screen and (max-width: 760px) {
@@ -192,13 +195,14 @@ body {
   .section-top > p {
   }
 }
+
 /* 플라잉 배너 */
 .fix-banner {
   position: fixed;
   right: 20px;
   bottom: 20px;
-  text-align: center;
   z-index: 9999;
+  text-align: center;
 }
 .fix-banner a {
   display: block;
@@ -214,6 +218,7 @@ body {
   font-size: 0;
   margin-top: 10px;
 }
+
 /* 기본레이아웃 */
 .wrap {
 }
@@ -303,6 +308,7 @@ body {
 }
 
 .header-right {
+  position: relative;
   float: right;
 }
 .member-list {
@@ -370,9 +376,10 @@ body {
 .mypage-list li a b {
   font-weight: 500;
 }
+
 .mb-mypage {
   position: absolute;
-  right: 20px;
+  right: 10px;
   top: -5px;
   display: none;
 }
@@ -433,9 +440,9 @@ body {
   height: 16px;
   background: rgba(0, 0, 0, 0.2);
 }
+
 @media screen and (max-width: 1024px) {
   .header {
-    border: 8px;
     border-bottom: 8px solid #f0f4f4;
   }
   .header .inner {
@@ -447,6 +454,7 @@ body {
     height: 18px;
     margin-left: 15px;
   }
+
   .header-left {
     width: 100%;
   }
@@ -455,16 +463,14 @@ body {
     transform: translateX(-50%);
     top: 140px;
   }
+
   .member-list {
     display: none;
-  }
-  .service-list {
-    display: inline-block;
-    float: none;
   }
   .mb-mypage {
     display: block;
   }
+
   .header-down {
     text-align: center;
   }
@@ -473,12 +479,14 @@ body {
     float: none;
     margin-top: 0px;
   }
+
   .service-list li {
     padding-right: 20px;
   }
   .service-list li:last-child {
     margin-right: 0px;
   }
+
   .service-list li a {
     font-size: 12px;
     font-weight: 400;
@@ -489,6 +497,7 @@ body {
     height: 48px;
     margin: 0 auto;
   }
+
   .service-menu {
     display: none;
   }
@@ -503,10 +512,12 @@ body {
 .promotion .inner {
   height: 345px;
 }
+
 .promotion .section-top {
   display: none;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
+
 .promotion-slide {
   height: 100%;
 }
@@ -519,9 +530,10 @@ body {
   width: 100%;
   height: auto;
 }
+
 @media screen and (max-width: 1280px) {
   .promotion .inner {
-    height: 275px;
+    /* height: 275px; */
   }
 }
 @media screen and (max-width: 1024px) {
