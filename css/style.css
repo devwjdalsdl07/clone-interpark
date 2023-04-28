@@ -1054,9 +1054,9 @@ body {
 }
 @media screen and (max-width: 1024px) {
   .ticket-rank {
+    left: 12px;
     font-size: 38px;
     line-height: 45px;
-    left: 12px;
   }
   .ticket .section-slide {
     width: 120%;
