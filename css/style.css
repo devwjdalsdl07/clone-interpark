@@ -1136,7 +1136,6 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  background: pink;
 }
 .live-img img {
   /* 이미지 너비, 높이 상관없이 가운데 */
@@ -1223,7 +1222,6 @@ body {
   height: 65px;
   border-radius: 3px;
   overflow: hidden;
-  background: pink;
 }
 .live-info-thumb img {
   position: absolute;
@@ -1231,6 +1229,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .live-info-desc {
@@ -1482,9 +1482,11 @@ body {
 .footer {
 }
 .footer-menu {
+  position: relative;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
   padding: 20px 0;
+  z-index: 99;
 }
 .footer-menu .inner {
 }
