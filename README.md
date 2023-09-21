@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=Waving&color=0:009a3e,100:badebc&height=200&section=header&text=Interpark&fontSize=60&fontColor=fff" alt="interpark clone coding" />
+  <img src="https://capsule-render.vercel.app/api?type=Waving&color=auto&height=200&section=header&text=Interpark&fontSize=60&fontColor=fff" alt="interpark clone coding" />
 </div>
 <br/>
 <br/>
